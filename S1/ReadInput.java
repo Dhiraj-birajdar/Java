@@ -7,8 +7,10 @@ class ReadInput
     {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter name : ");
-        boolean name = s.hasNextInt();
-        System.out.println("hello "+name);
+        String n = s.nextLine();
+        // boolean name = s.hasNextInt();
+        System.out.println("hello "+n);
+        First f = new First();
         
     }
 }
