@@ -14,8 +14,8 @@ class StringClass
         String s4 = new String(b);
 
         System.out.printf("%s\n%s\n%s\n%s",s1,s2,s3,s4);
-
         final int a = 10;
+        System.out.println(s1==s5+a);
 
 
 
