@@ -2,7 +2,7 @@ class BitView
 {
     public static void main(String[] args)
     {
-        byte a = -128;
+        byte a = -128; //-128 int literal
         System.out.println(Integer.toBinaryString(a));
         System.out.println(Integer.toOctalString(a));
         System.out.println(Integer.toHexString(a));
