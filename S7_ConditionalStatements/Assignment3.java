@@ -44,6 +44,8 @@ public class Assignment3 {
             System.out.println("Organization");
         else
             System.out.println("enter valid url");
+        sc.close();
+        
     }
 
 }

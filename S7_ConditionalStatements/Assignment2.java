@@ -33,6 +33,8 @@ public class Assignment2 {
         }
         else
             System.out.println(y+" is not leap year");
+        sc.close();
+    
     }
     
 }

@@ -58,6 +58,8 @@ public class Assignment4 {
             default:System.out.println("invalid url");
                 break;
         }
+        sc.close();
+
     }
     
 }

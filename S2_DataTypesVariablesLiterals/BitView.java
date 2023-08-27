@@ -7,7 +7,7 @@ class BitView
         System.out.println(Integer.toOctalString(a));
         System.out.println(Integer.toHexString(a));
 
-        float f = 1.1234567f;//accurate upto 8 digit
+        // float f = 1.1234567f;//accurate upto 8 digit
         double b = 1.012345678901234;//upto 16 digit
         System.out.println(b);
 
