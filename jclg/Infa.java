@@ -19,7 +19,7 @@ interface a
 	{
 		void dshow()
 		{
-			System.out.println("class d method show");			
+			System.out.println(" class d method show");			
 		}
 	}
 }
