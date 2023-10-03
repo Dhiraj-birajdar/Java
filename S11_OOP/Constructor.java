@@ -16,8 +16,7 @@ public class Constructor
         System.out.println(r3.area());
         System.out.println(r3.perimeter());
         System.out.println(r3.isSquare());
-
-
+        
     }
 }
 
