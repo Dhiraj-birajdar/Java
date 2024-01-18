@@ -1,0 +1,98 @@
+SAVITRIBAI PHULE PUNE UNIVERSITY, Pune
+Asian College of Science & Commerce, Pune
+
+Student Transcript
+
+Student Name: BIRAJDAR DHIRAJ BABRUWAN
+Perm Reg No(PRN): 1102107749
+Enrollment Date: October 2021
+Expected Graduation: July 2024
+
+=================================================================================================
+
+**Semester 1: First Year of B.Sc. (Computer Science) - October 2021**
+
+SGPA: 9.30
+
+| Subject Code | Subject Name                                             				| Grade |
+|--------------|------------------------------------------------------------------------|-------|
+| 11121        | CS-111: Problems Solving using Computer and 'C' Programming 	        | O     |
+| 11122        | CS-112: Database Management Systems                    		        | O     |
+| 11123        | CS-113: Practical Course based on CS111 and CS112      		        | O     |
+| 11221        | MTC-111: Matrix Algebra                                   			    | O     |
+| 11222        | MTC-112: Discrete Mathematics                            			    | A     |
+| 11223        | MTC-113: Mathematics Practical                           			    | O     |
+| 11321        | ELC-111: Semiconductor Devices and Basic Electronic Systems 	        | A     |
+| 11322        | ELC-112: Principles of Digital Electronics               			    | O     |
+| 11323        | ELC-113: Electronics Lab IA                               			    | O     |
+| 11421        | CSST-111: Descriptive Statistics I                        			    | A+    |
+| 11422        | CSST-112: Mathematical Statistics                          			| A     |
+| 11423        | CSST-113: Statistics Practical Paper I                   			    | A+    |
+
+=================================================================================================
+
+**Semester 2: First Year of B.Sc. (Computer Science) - April 2022**
+
+SGPA: 9.36
+
+| Subject Code | Subject Name                                             				| Grade |
+|--------------|------------------------------------------------------------------------|-------|
+| 12121        | CS-121: Advanced 'C' Programming                                       | O     |
+| 12122        | CS-122: Relational Database Management Systems                         | O     |
+| 12123        | CS-123: Practical Course based on CS121 and CS122                      | O     |
+| 12221        | MTC-121: Linear Algebra                                                | A     |
+| 12222        | MTC-122: Graph Theory                                                  | O     |
+| 12223        | MTC-123: Mathematics Practical                                         | O     |
+| 12321        | ELC-121: Instrumentation System                                        | A     |
+| 12322        | ELC-122: Basics of Computer Organisation                               | A+    |
+| 12323        | ELC-123: Electronics Lab IB                                            | O     |
+| 12421        | CSST-121: Methods of Applied Statistics                                | A+    |
+| 12422        | CSST-122: Continuous Probability Distributions and Testing of Hypo     | A+    |
+| 12423        | CSST-123: Statistics Practical Paper II                                | O     |
+| 12999        | DEMOCRACY, ELECTION AND GOVERNANCE                                     | O     |
+| GR1          | G-1: Physical Education                                                | B     |
+
+=================================================================================================
+
+**Semester 3: B.Sc. (Computer Science) - October 2022**
+
+SGPA: 9.55
+
+| Subject Code | Subject Name                                                           | Grade |
+|--------------|------------------------------------------------------------------------|-------|
+| 23121        | CS 231: Data Structures and Algorithms - I                             | O     |
+| 23122        | CS 232: Software Engineering                                           | A+    |
+| 23123        | CS 233: Practical Course on CS 231 and CS 232                          | O     |
+| 23221        | MTC 231: Groups and Coding Theory                                      | O     |
+| 23222        | MTC-232: Numerical Techniques                                          | O     |
+| 23223        | MTC-233: Mathematics Practical: Python Programming Language I          | O     |
+| 23321        | ELC-231: Microcontroller Architecture & Programming                    | A+    |
+| 23322        | ELC-232: Digital Communication and Networking                          | A+    |
+| 23323        | ELC-233: Practical Course I                                            | O     |
+| 23921        | AECC-I: Environmental Awareness                                        | A+    |
+| 23922        | AECC-II: Language Communication - I                                    | A+    |
+
+=================================================================================================
+
+**Semester 4: B.Sc. (Computer Science) - April 2023**
+
+SGPA: 9.30
+
+| Subject Code | Subject Name                                                           | Grade |
+|--------------|------------------------------------------------------------------------|-------|
+| 24121        | CS 241: Data Structures and Algorithms - II                            | A+    |
+| 24122        | CS 242: Computer Networks - I                                          | A+    |
+| 24123        | CS 243: Practical Course on CS 241 and CS 242                          | O     |
+| 24221        | MTC 241: Computational Geometry                                        | A+    |
+| 24222        | MTC-242: Operations Research                                           | A+    |
+| 24223        | MTC-243: Mathematics Practical: Python Programming Language II         | O     |
+| 24321        | ELC-241: Embedded System Design                                        | O     |
+| 24322        | ELC-242: Wireless Communication & Internet of Things                   | A+    |
+| 24323        | ELC-243: Practical Course II                                           | O     |
+| 24921        | AECC-I: Environmental Awareness - II                                   | A+    |
+| 24922        | AECC-II: Language Communication - II                                   | A+    |
+
+=================================================================================================
+
+
+
