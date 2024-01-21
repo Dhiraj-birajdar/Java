@@ -111,4 +111,40 @@ public class All {
 		else
 			System.out.println(s1+" and "+s2+" are not anagrams.");		
 	}
+	
+	void countChar(String s, char c) {
+		int cc = 0;
+		for(char chr: s.toCharArray())
+			cc+= (chr == c)? 1: 0;
+		System.out.println("Character \'"+c+"\' appears in string \""+s+"\" "+cc+" times.");
+	}
+	
+	void removeDuplicate() {
+		
+	}
+	
+	void sumOfArray(int[] a) {
+		int s = 0;
+		for(int e: a)
+			s+=e;
+		System.out.println("Sum of array is "+s);
+	}
+	
+	void maxNum(int[] a) {
+		int m = a[0];
+		for(int e: a)
+			m = (m>e)? m: e;
+		System.out.println("Maximum number in array is "+m);
+	}
+	
+	void reverseArray(int[] a) {
+		for(int i = 0, j = a.length-1, t; i<a.length/2; i++, j--) {
+			t = a[i];
+			a[i] = a[j];
+			a[j] = t;
+		}
+		System.out.print("Reversed Array: ");
+		for(int e: a)
+			System.out.print(e+"  ");
+	}
 }
