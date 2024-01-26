@@ -75,8 +75,24 @@ public class All {
 			System.out.println(n+" is not Armstrong Number");
 	}
 	
-	void duplicateEleArr() {
-		
+	void duplicateEleArr(int[] a) {
+		boolean f = false;
+		System.out.print("Duplicate elements of array: ");
+		for(int i = 0;i<a.length;i++) {
+			if(a[i] == -1)
+				continue;
+			
+			for(int j = i+1; j<a.length;j++) {
+				if(a[i] == a[j]) {
+					if(!f) {
+						System.out.print(a[i]+"  ");
+						f = true;
+					}
+					a[j] = -1;
+				}				
+			}
+			f = false;
+		}
 	}
 	
 	void countVC(String s) {
@@ -119,8 +135,21 @@ public class All {
 		System.out.println("Character \'"+c+"\' appears in string \""+s+"\" "+cc+" times.");
 	}
 	
-	void removeDuplicate() {
-		
+	void removeDuplicateChar(String s) {
+		char []c = s.toCharArray();
+		for(int i = 0; i<s.length(); i++) {
+			if(c[i] == '\0')
+				continue;
+			for(int j = i+1; j<s.length(); j++) {
+				if(c[i] == c[j])
+					c[j] = '\0';
+			}
+		}
+		s = "";
+		for(char ch: c)
+			if(ch!='\0')
+				s+=ch;
+		System.out.println("Duplicate removed string: "+s);
 	}
 	
 	void sumOfArray(int[] a) {
