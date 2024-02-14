@@ -1,9 +1,7 @@
 package student;
 
-import java.util.ArrayList;
+public class GuessGame {
 
-public class StudentDriver
-{
     int guess(int n){
         int g = 1702766719;
         if(n == g)
@@ -24,7 +22,6 @@ public class StudentDriver
         //     return guessNumber()
         for(int g, s = n, i = 1 ;;i++){
             g = guess(s);
-            System.out.println(i+"  guess: "+s+"  n: "+n+"  g: "+g);
             if(g == 0)
                 return s;
             else if(g == -1){
@@ -41,13 +38,4 @@ public class StudentDriver
         GuessGame g = new GuessGame();
         System.out.println(g.guessNumber(2126753390));
     }
-//    public static void main(String[] args)
-//    {
-//        ArrayList<Student>s1=new ArrayList<Student>();
-//        s1.add(new Student("Shubham",123,"CSE"));
-//        int s = Integer.MAX_VALUE + 1;
-//        System.out.println(s);
-//        System.out.println("dkfjkljf");
-//        int a = 8793569631;
-//    }
 }
