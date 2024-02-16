@@ -10,7 +10,7 @@ public class StringDemo {
         String str3 = new String("Hello, World!");
 
         // Creating string using new StringBuffer, StringBuilder
-        StringBuffer stringBuffer = new StringBuffer("Hello");
+        StringBuffer stringBuffer = new StringBuffer("Hello"); 
         StringBuilder stringBuilder = new StringBuilder("World");
 
         // methods of StringBuffer and StringBuilder modifies original string
@@ -46,7 +46,7 @@ public class StringDemo {
         // Case-insensitive comparison
         boolean isEqualIgnoreCase = result.equalsIgnoreCase(anotherString);
         System.out.println("Case-insensitive comparison: " + isEqualIgnoreCase);
-
+ 
         // Searching for a substring
         boolean contains = result.contains("World");
         System.out.println("Contains 'World': " + contains);
@@ -60,6 +60,6 @@ public class StringDemo {
         String lowerCase = result.toLowerCase();
         System.out.println("Uppercase: " + upperCase);
         System.out.println("Lowercase: " + lowerCase);
-    }
+     }
 }
 
