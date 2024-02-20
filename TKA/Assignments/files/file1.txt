@@ -1,0 +1,4 @@
+Java is high level programming language.
+java is hybrid language.
+java is platform independent
+java is object orianted programming language

@@ -3,7 +3,7 @@ package student;
 public class GuessGame {
 
     int guess(int n){
-        int g = 1702766719;
+        int g = 65656;
         if(n == g)
             return 0;
         else if(n > g)
@@ -37,5 +37,8 @@ public class GuessGame {
     public static void main(String[] args) {
         GuessGame g = new GuessGame();
         System.out.println(g.guessNumber(2126753390));
+
+
+
     }
 }
