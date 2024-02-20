@@ -20,12 +20,13 @@ public static void main(String[] args) throws IOException, ClassNotFoundExceptio
 	FileOutputStream fw = new FileOutputStream("files/StudentObject.txt");
 	ObjectOutputStream ow = new ObjectOutputStream(fw);
 	ow.writeObject(s1);
+	ow.close();
 	
 	// Deserialization
 	FileInputStream fr = new FileInputStream("files/StudentObject.txt");
 	ObjectInputStream or = new ObjectInputStream(fr);
 	Student sr = (Student)or.readObject(); // checked exception classnotfound
-	
+	or.close();
 	System.out.println(sr.getName());
 	System.out.println(sr.getMarks());
 	System.out.println(sr.getAdd());
