@@ -2,7 +2,8 @@ package student;
 
 import java.io.*;
 
-public class Test extends{
+
+public class Test{
     static void m1(String s){
         System.out.println("string");
     }
@@ -23,6 +24,6 @@ public class Test extends{
         System.out.println(s);
         for(byte b: s.getBytes()) System.out.println(b);
         FileOutputStream ow = new FileOutputStream("file.txt");
-        ObjectOutputStream
+//        ObjectOutputStream
     }
 }
