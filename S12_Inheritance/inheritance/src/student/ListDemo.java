@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
-public class ListDemo {
+public class ListDemo extends Thread {
 
     public static void main(String[] args) {
         // List Intereface
