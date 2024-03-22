@@ -1,8 +1,15 @@
-package com.order;
+package online_order_processing;
 
 public class Main {
+    public static void main(String[] args) {
+        // Creating an instance of OnlineOrder
+        OnlineOrder onlineOrder = new OnlineOrder(12345, "2024-03-20", 150.50, "123 Street, City, Country");
 
+        // Displaying order details including shipping address
+        onlineOrder.display();
+    }
 }
+
 
 /*
 Problem 1: Online Order Processing

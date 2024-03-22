@@ -38,6 +38,7 @@ public class NullTest {
     }
 
 }
+
 class Shoe{
     private String name;
     private double price;
