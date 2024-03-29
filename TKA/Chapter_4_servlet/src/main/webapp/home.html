@@ -5,22 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Form</title>
 </head>
-<body>
+<body style="background-color: black; color: yellow">
 
-<h2>Simple Form</h2>
+	<h2>Simple Form</h2>
 
-<form action="submit_form" method="get">
+	<form action="submit_form" method="get">
 
-  <label for="fname">First Name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last Name:</label><br>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br>
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-  <input type="submit" value="Submit">
-</form>
+		<label for="fname">First Name:</label><br> <input type="text"
+			id="fname" name="fname"><br> <label for="lname">Last
+			Name:</label><br> <input type="text" id="lname" name="lname"><br>
+		<label for="email">Email:</label><br> <input type="email"
+			id="email" name="email"><br> <label for="message">Message:</label><br>
+		<textarea id="message" name="message" rows="4" cols="50"></textarea>
+		<br>
+		<br> <input type="submit" value="Submit">
+	</form>
 
+
+	<h2>Select Subjects:</h2>
+
+	<form action="submit_form" method="get">
+		<label for="maths"> <input type="checkbox" id="maths"
+			name="subject" value="maths"> Maths
+		</label><br> <label for="physics"> <input type="checkbox"
+			id="physics" name="subject" value="physics"> Physics
+		</label><br> <label for="chemistry"> <input type="checkbox"
+			id="chemistry" name="subject" value="chemistry"> Chemistry
+		</label><br> <label for="biology"> <input type="checkbox"
+			id="biology" name="subject" value="biology"> Biology
+		</label><br> <label for="history"> <input type="checkbox"
+			id="history" name="subject" value="history"> History
+		</label><br> <label for="english"> <input type="checkbox"
+			id="english" name="subject" value="english"> English
+		</label><br> <input type="submit" value="Submit">
+	</form>
 </body>
 </html>
