@@ -60,6 +60,7 @@ public class DB {
 //		System.out.println("Rows affected: "+ra);
 		System.out.println(rs.getType());
 		
+		
 		try {
 			if(rs.next())
 				System.out.println(rs.getRow());

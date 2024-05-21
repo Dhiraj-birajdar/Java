@@ -1,0 +1,6 @@
+requirements
+java 1.8 and above
+apache tomcat 9 and above
+mysql world database
+intellij idea
+smart tomcat plugin

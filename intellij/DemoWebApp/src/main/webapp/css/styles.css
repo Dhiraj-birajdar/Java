@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #fff;
+  background-color:  #292c35;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,9 +15,9 @@ body {
   transition: background 0.2s linear;
 }
 
-body.dark {background-color: #292c35;} /* #9b59b6 */
+body.dark {background-color: #fff;} /* #9b59b6 */
 
-body.dark h1, body.dark .support a {color: #fff;}
+body.dark h1,body.dark h2, body.dark .support a {color: #000000;}
 
 .checkbox {
   opacity: 0;
