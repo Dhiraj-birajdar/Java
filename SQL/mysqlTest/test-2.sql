@@ -33,6 +33,8 @@ select avg(experience) from employee;
 -- q5
 select name from employee where salary = (select max(salary) from employee);
 
+select name from employee HAVING salary = max(salary);
+
 -- q6
 select name,experience from employee where salary = (select min(salary) from employee);
 
