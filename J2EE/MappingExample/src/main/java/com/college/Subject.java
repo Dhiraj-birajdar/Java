@@ -1,4 +1,4 @@
-package com.map;
+package com.college;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

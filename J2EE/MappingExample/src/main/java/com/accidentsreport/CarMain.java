@@ -1,41 +1,32 @@
-package com.map;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.accidentsreport;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-public class FacultyMain {
+public class CarMain {
+
 	public static void main(String[] args) {
 		Configuration configuration = new Configuration();
 		configuration.configure();
-		configuration.addAnnotatedClass(Faculty.class);
-		configuration.addAnnotatedClass(Subject.class);
+		configuration.addAnnotatedClass(Car.class);
+		configuration.addAnnotatedClass(Location.class);
 
 		SessionFactory sessionFactory = configuration.buildSessionFactory();
 		Session session = sessionFactory.openSession();
 	
 		
-		FacultyMain.addFaculty(session, new Faculty("john"), "c", "c++");
+		CarMain.addCar(session, new Car("porshe",new Location("pune")));
 		
 		session.close();
 		sessionFactory.close();
 	}
 
-	static void addFaculty(Session session, Faculty faculty, String...subs) {
+	static void addCar(Session session, Car car) {
 		
 		Transaction transaction = session.beginTransaction();
-		List<Subject> ls = new ArrayList<>();
-		for(String sub: subs) {
-			Subject s = new Subject(sub);
-			session.save(s);
-			ls.add(s);
-		}
-		faculty.setSubjects(ls);
-		session.save(faculty);
+		session.save(car);
 		transaction.commit();
 	}
 }

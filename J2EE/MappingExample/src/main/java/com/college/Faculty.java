@@ -1,7 +1,8 @@
-package com.map;
+package com.college;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,7 +24,7 @@ public class Faculty {
 	int facultyCode;
 	String facultyName;
 	
-	@OneToMany
+	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "facultyCode")
 	List<Subject> subjects;
 	
@@ -55,11 +56,6 @@ public class Faculty {
 		return "Faculty [facultyCode=" + facultyCode + ", facultyName=" + facultyName + ", subjects=" + subjects + "]";
 	}
 
-	public Faculty(int facultyCode, String facultyName) {
-		super();
-		this.facultyCode = facultyCode;
-		this.facultyName = facultyName;
-	}
 	public Faculty() {
 		super();
 	}
