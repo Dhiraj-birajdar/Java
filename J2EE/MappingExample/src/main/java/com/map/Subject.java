@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Subject {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int subId;
 	String subName;
 	public int getSubId() {

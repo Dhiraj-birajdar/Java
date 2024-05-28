@@ -16,15 +16,10 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Setter
-@Getter
-@ToString
-@NoArgsConstructor
-@AllArgsConstructor
 public class Faculty {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int facultyCode;
 	String facultyName;
 	
@@ -53,10 +48,13 @@ public class Faculty {
 	public void setFacultyName(String facultyName) {
 		this.facultyName = facultyName;
 	}
+	
+	
 	@Override
 	public String toString() {
-		return "Faculty [facultyCode=" + facultyCode + ", facultyName=" + facultyName + "]";
+		return "Faculty [facultyCode=" + facultyCode + ", facultyName=" + facultyName + ", subjects=" + subjects + "]";
 	}
+
 	public Faculty(int facultyCode, String facultyName) {
 		super();
 		this.facultyCode = facultyCode;
