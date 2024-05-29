@@ -11,9 +11,9 @@ public class EmployeeControlller {
 
 //        employeeDao.findEmployee(1);
 
-//        Employee employee1 = new Employee("bob",46644);
-//        employeeDao.updateEmployee(2,employee1);
+        Employee employee1 = new Employee("bob",46644);
+        employeeDao.updateEmployee(2,employee1);
 
-        employeeDao.removeEmployee(2);
+//        employeeDao.removeEmployee(2);
     }
 }

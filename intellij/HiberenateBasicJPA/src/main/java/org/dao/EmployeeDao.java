@@ -39,6 +39,7 @@ public class EmployeeDao {
 
             employee.setId(dbEmployee1.getId());
             entityManager.merge(employee);
+
             entityTransaction.commit();
         }
 
