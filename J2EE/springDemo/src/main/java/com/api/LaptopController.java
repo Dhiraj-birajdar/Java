@@ -25,19 +25,19 @@ public class LaptopController {
 	public List<Laptop> getLaptops(@RequestParam(defaultValue = "10") int n){
 		
 		List<Laptop> ll = new ArrayList<>();
-        Random random = new Random();
-        String[] brands = {"Dell", "HP", "Apple", "Lenovo", "Asus"};
-        String[] names = {"Inspiron", "Pavilion", "MacBook", "ThinkPad", "VivoBook"};
+        	Random random = new Random();
+        	String[] brands = {"Dell", "HP", "Apple", "Lenovo", "Asus"};
+        	String[] names = {"Inspiron", "Pavilion", "MacBook", "ThinkPad", "VivoBook"};
 
-        for (int i = 0; i < n; i++) {
-            int id = i + 1;
-            String brand = brands[random.nextInt(brands.length)];
-            String name = names[random.nextInt(names.length)];
-            int ram = (random.nextInt(4) + 1) * 8;
-            int ssd = (random.nextInt(4) + 1) * 256; 
-            double price = 500 + (random.nextInt(15) * 100);
-            ll.add(new Laptop(id, name, brand, ram, ssd, price));
-        }
-        return ll;
+        	for (int i = 0; i < n; i++) {
+	            int id = i + 1;
+	            String brand = brands[random.nextInt(brands.length)];
+	            String name = names[random.nextInt(names.length)];
+	            int ram = (random.nextInt(4) + 1) * 8;
+	            int ssd = (random.nextInt(4) + 1) * 256; 
+	            double price = 500 + (random.nextInt(15) * 100);
+	            ll.add(new Laptop(id, name, brand, ram, ssd, price));
+	        }
+        	return ll;
 	}
 }
