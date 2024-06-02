@@ -26,8 +26,8 @@ public class CityController {
         return cs.getCitiesLimit(limit);
     }
 
-    @GetMapping("country") //citiesbycountry
-    public List<City> getCitiesByCountry(@RequestParam(defaultValue = "USA") String code){
+    @GetMapping("country")
+    public List<City> getCitiesByCountry(@RequestParam(defaultValue = "USA") String code) {
         return cs.getCitiesByCountry(code.toUpperCase());
     }
 }

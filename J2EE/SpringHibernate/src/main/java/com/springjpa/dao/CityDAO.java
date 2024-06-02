@@ -3,11 +3,11 @@ package com.springjpa.dao;
 import com.springjpa.dto.City;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Component
+@Repository
 public class CityDAO {
     @PersistenceContext
     private EntityManager entityManager;
@@ -18,12 +18,12 @@ public class CityDAO {
 
     public List<City> getCitiesLimit(int limit) {
         return entityManager.createQuery("from City", City.class)
-                                 .setMaxResults(limit)
-                                 .getResultList();
+                .setMaxResults(limit)
+                .getResultList();
     }
 
     public List<City> getCities() {
         return entityManager.createQuery("from City", City.class)
-                                 .getResultList();
+                .getResultList();
     }
 }
