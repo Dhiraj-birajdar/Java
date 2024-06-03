@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -35,5 +37,14 @@ public class ActorController {
         return actorService.getActorsLastName(c.toUpperCase());
     }
 
+    @GetMapping("hash")
+    public List<HashMap<String,String>> get(){
+        List<HashMap<String,String>> lh = new ArrayList<>();
+        HashMap<String,String> h = new HashMap<>();
+        h.put("name","virat");
+        h.put("age","33");
+        lh.add(h);
+        return lh;
+    }
 
 }
