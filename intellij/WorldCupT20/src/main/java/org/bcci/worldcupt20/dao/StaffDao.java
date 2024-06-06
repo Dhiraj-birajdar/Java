@@ -2,6 +2,7 @@ package org.bcci.worldcupt20.dao;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jakarta.transaction.Transactional;
 import org.bcci.worldcupt20.dto.Staff;
 import org.springframework.stereotype.Repository;
 
@@ -16,7 +17,7 @@ public class StaffDao {
 
 
     public List<Staff> getAllStaff() {
-        if(staffList == null) {
+        if (staffList == null) {
             staffList = entityManager.createQuery("SELECT s FROM Staff s", Staff.class).getResultList();
         }
         return staffList;

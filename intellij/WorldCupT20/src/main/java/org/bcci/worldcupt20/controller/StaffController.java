@@ -3,8 +3,8 @@ package org.bcci.worldcupt20.controller;
 import org.bcci.worldcupt20.dto.Staff;
 import org.bcci.worldcupt20.service.StaffService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -58,4 +58,5 @@ public class StaffController {
     public List<Staff> getHighestPaidStaff() {
         return staffService.getHighestPaidStaff();
     }
+
 }
