@@ -14,11 +14,13 @@ public class StaffDao {
     @PersistenceContext
     private EntityManager entityManager;
     List<Staff> staffList;
+    boolean isStaffListUpdated = false;
 
 
     public List<Staff> getAllStaff() {
-        if (staffList == null) {
+        if (!isStaffListUpdated) {
             staffList = entityManager.createQuery("SELECT s FROM Staff s", Staff.class).getResultList();
+            isStaffListUpdated = true;
         }
         return staffList;
     }
@@ -28,6 +30,7 @@ public class StaffDao {
 
         try {
             entityManager.persist(staff);
+            isStaffListUpdated = false;
             return true;
         } catch (Exception e) {
             System.out.println(e.toString());
@@ -39,6 +42,7 @@ public class StaffDao {
     public boolean updateStaff(Staff staff) {
         try {
             entityManager.merge(staff);
+            isStaffListUpdated = false;
             return true;
         } catch (Exception e) {
             System.out.println(e.toString());
@@ -51,6 +55,7 @@ public class StaffDao {
         try {
             Staff staff = entityManager.find(Staff.class, staffId);
             entityManager.remove(staff);
+            isStaffListUpdated = false;
             return true;
         } catch (Exception e) {
             System.out.println(e.toString());
