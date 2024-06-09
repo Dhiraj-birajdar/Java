@@ -1,7 +1,7 @@
-package org.bcci.worldcupt20.service;
+package me.h2db.service;
 
-import org.bcci.worldcupt20.dao.StaffDao;
-import org.bcci.worldcupt20.dto.Staff;
+import me.h2db.dao.StaffDao;
+import me.h2db.dto.Staff;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
