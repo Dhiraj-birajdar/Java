@@ -1,0 +1,20 @@
+Create a stream pipeline to group a list of strings by their length.
+Write a program to count the number of occurrences of each character in a string using streams.
+Given a list of Employee objects, find the employee with the highest salary using streams.
+Using streams, filter a list of numbers to only include those greater than 10 and then find their average.
+Write a program to concatenate a list of strings into a single string, separated by commas, using streams.
+Using Java Streams, convert a list of strings to a map where the key is the string and the value is its length.
+Write a stream operation to flatten a list of lists of integers into a single list of integers.
+Given a list of transactions, filter out transactions of a specific type and collect them into a set.
+Create a stream pipeline to find the first name of the oldest person in a list of Person objects.
+Write a program to find the first non-repeating character in a string using streams.
+Using streams, find the sum of the squares of a list of integers.
+Write a stream operation to skip the first 5 elements in a list and then print the rest.
+Create a stream to generate an infinite sequence of random numbers and print the first 10.
+Using streams, partition a list of integers into even and odd numbers.
+Write a program to convert a list of strings to a list of their respective lengths using streams.
+Using streams, find the product of all elements in a list of integers.
+Create a stream pipeline to collect all unique words from a list of sentences.
+Write a program to filter out null values from a list of strings using streams.
+Using streams, merge two lists of integers and remove duplicates.
+Write a stream operation to check if any string in a list starts with a specific prefix.
