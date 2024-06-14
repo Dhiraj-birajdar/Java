@@ -30,10 +30,10 @@ public class LoginServlet extends HttpServlet {
         if (pass != null && pass.equals("pass")) {
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("thankyou.jsp");
             List<String> ls = new ArrayList<String>();
-            ls.add("<br><br>Files used:");
-            ls.add("<br>LoginServlet");
-            ls.add("<br>Index.jsp");
-            ls.add("<br>Thankyou.jsp");
+            ls.add("Files used:");
+            ls.add("LoginServlet");
+            ls.add("Index.jsp");
+            ls.add("Thankyou.jsp");
             req.setAttribute("msg", "Welcome "+user);
             req.setAttribute("data", ls);
             requestDispatcher.forward(req, resp);
