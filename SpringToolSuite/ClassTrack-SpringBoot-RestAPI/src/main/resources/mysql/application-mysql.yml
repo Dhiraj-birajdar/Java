@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ClassTrack-SpringBoot
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/classtrack?createDatabaseIfNotExist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true

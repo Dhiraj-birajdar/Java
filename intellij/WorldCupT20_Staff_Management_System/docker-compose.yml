@@ -1,0 +1,38 @@
+services:
+  mysql:
+    container_name: mysql-bin
+    image: mysql
+    environment:
+#      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: WCT20
+    ports:
+        - "3306:3306"
+#    volumes:
+#        - mysql-vol:/var/lib/mysql/data
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+        - spring-boot-network
+#    restart: unless-stopped
+
+  spring-boot-wct20:
+    container_name: wct20-bin
+    image: wct20spring
+    ports:
+      - "8080:8080"
+    networks:
+      - spring-boot-network
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+#volumes:
+#    mysql-vol:
+
+networks:
+    spring-boot-network:
+        driver: bridge
