@@ -24,6 +24,7 @@ public class StaffController {
         return staffService.getAllStaff();
     }
 
+    @CrossOrigin("http://localhost:4200")
     @GetMapping("/captain")
     public Staff getCaptain() {
         return staffService.getCaptain();

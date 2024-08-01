@@ -1,0 +1,8 @@
+#spring:
+#  application:
+#  name : Quiz-Engine-Service
+#  data:
+#    mongodb:
+#      uri: mongodb://127.0.0.1:27017/quiz_engine_service
+#
+#

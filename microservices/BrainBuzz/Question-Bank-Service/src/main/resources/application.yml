@@ -1,0 +1,18 @@
+spring:
+#  application:
+#  name : Question-Bank-Service
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/question_bank_service
+      database: question_bank_service  # Specify the default database
+      username:      # Optional: Specify username if authentication is required
+      password:   # Optional: Specify password if authentication is required
+#
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: '*'
+    endpoint:
+      health:
+        show-details: always

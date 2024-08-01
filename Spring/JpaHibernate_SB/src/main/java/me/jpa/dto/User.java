@@ -2,7 +2,7 @@ package me.jpa.dto;
 
 import lombok.Data;
 
-@Data
+//@Data
 public class User {
 
     String name;

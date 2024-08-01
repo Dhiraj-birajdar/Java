@@ -1,0 +1,202 @@
+[
+  {
+    "profile": "backend developer",
+    "desc": "developing backend services",
+    "exp": 5,
+    "techStack": [
+      "java",
+      "spring boot",
+      "mysql"
+    ]
+  },
+  {
+    "profile": "frontend developer",
+    "desc": "creating user interfaces",
+    "exp": 4,
+    "techStack": [
+      "javascript",
+      "react",
+      "css"
+    ]
+  },
+  {
+    "profile": "full stack developer",
+    "desc": "building full stack applications",
+    "exp": 6,
+    "techStack": [
+      "node.js",
+      "angular",
+      "mongodb"
+    ]
+  },
+  {
+    "profile": "data scientist",
+    "desc": "analyzing data and building models",
+    "exp": 3,
+    "techStack": [
+      "python",
+      "tensorflow",
+      "pandas"
+    ]
+  },
+  {
+    "profile": "devops engineer",
+    "desc": "maintaining CI/CD pipelines",
+    "exp": 5,
+    "techStack": [
+      "docker",
+      "kubernetes",
+      "jenkins"
+    ]
+  },
+  {
+    "profile": "mobile developer",
+    "desc": "developing mobile applications",
+    "exp": 4,
+    "techStack": [
+      "kotlin",
+      "android",
+      "java"
+    ]
+  },
+  {
+    "profile": "ui/ux designer",
+    "desc": "designing user experiences",
+    "exp": 2,
+    "techStack": [
+      "figma",
+      "sketch",
+      "adobe xd"
+    ]
+  },
+  {
+    "profile": "qa engineer",
+    "desc": "testing applications for bugs",
+    "exp": 3,
+    "techStack": [
+      "selenium",
+      "junit",
+      "cucumber"
+    ]
+  },
+  {
+    "profile": "cloud architect",
+    "desc": "designing cloud infrastructure",
+    "exp": 7,
+    "techStack": [
+      "aws",
+      "azure",
+      "terraform"
+    ]
+  },
+  {
+    "profile": "systems analyst",
+    "desc": "analyzing system requirements",
+    "exp": 5,
+    "techStack": [
+      "uml",
+      "sql",
+      "oracle"
+    ]
+  },
+  {
+    "profile": "machine learning engineer",
+    "desc": "building machine learning models",
+    "exp": 3,
+    "techStack": [
+      "python",
+      "scikit-learn",
+      "numpy"
+    ]
+  },
+  {
+    "profile": "database administrator",
+    "desc": "managing databases",
+    "exp": 6,
+    "techStack": [
+      "oracle",
+      "sql",
+      "postgresql"
+    ]
+  },
+  {
+    "profile": "network engineer",
+    "desc": "maintaining network infrastructure",
+    "exp": 5,
+    "techStack": [
+      "cisco",
+      "firewall",
+      "vpn"
+    ]
+  },
+  {
+    "profile": "security analyst",
+    "desc": "monitoring and responding to security threats",
+    "exp": 4,
+    "techStack": [
+      "siem",
+      "firewalls",
+      "encryption"
+    ]
+  },
+  {
+    "profile": "software architect",
+    "desc": "designing software architecture",
+    "exp": 8,
+    "techStack": [
+      "microservices",
+      "java",
+      "spring"
+    ]
+  },
+  {
+    "profile": "game developer",
+    "desc": "developing video games",
+    "exp": 3,
+    "techStack": [
+      "unity",
+      "c#",
+      "blender"
+    ]
+  },
+  {
+    "profile": "data engineer",
+    "desc": "building data pipelines",
+    "exp": 5,
+    "techStack": [
+      "hadoop",
+      "spark",
+      "kafka"
+    ]
+  },
+  {
+    "profile": "project manager",
+    "desc": "managing software projects",
+    "exp": 7,
+    "techStack": [
+      "jira",
+      "confluence",
+      "scrum"
+    ]
+  },
+  {
+    "profile": "business analyst",
+    "desc": "analyzing business requirements",
+    "exp": 4,
+    "techStack": [
+      "excel",
+      "power bi",
+      "sql"
+    ]
+  },
+  {
+    "profile": "site reliability engineer",
+    "desc": "ensuring system reliability",
+    "exp": 6,
+    "techStack": [
+      "prometheus",
+      "grafana",
+      "kubernetes"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: Service-Manager
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+
+#spring:
+#  application:
+#    name: Service-Manager
+#server:
+#  port: 8761
+#eureka:
+#  client:
+#    fetch-registry: false
+#    register-with-eureka: false
+#    service-url:
+#      defaultZone: http://localhost:8761
+#  instance:
+#    hostname: localhost
+#    prefer-ip-address: false
+#    ip-address: 127.0.0.1  # localhost IP address

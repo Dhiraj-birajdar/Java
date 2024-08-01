@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/spring_reactive
+    username: root
+    password: root
+  flyway:
+    url: jdbc:mysql://localhost:3306/
+    user: root
+    password: root
+    create-schemas: true
+    default-schema: spring_reactive
+    schemas: spring_reactive
+#    driver-class-name: com.mysql.cj.jdbc.Driver

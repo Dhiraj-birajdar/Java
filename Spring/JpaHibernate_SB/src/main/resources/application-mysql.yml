@@ -3,7 +3,7 @@ spring:
     name: JpaHibernate_SB
 
   datasource:
-    url: jdbc:mysql://localhost:3306/data_jpa
+    url: jdbc:mysql://localhost:3306/data_jpa?createDatabaseIfNotExist=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
