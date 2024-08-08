@@ -1,0 +1,6 @@
+Dear Hiring Manager,
+I hope you are doing great.
+My name is Dhiraj Birajdar and I want to apply for the position of Java Spring Boot Developer at Gurucul. Recently, I graduated with a Bachelor’s degree in Computer Science from Savitribai Phule Pune University with a CGPA of 9.46. 
+I have built a strong foundation in Java, Spring Boot, and Angular through various projects and internships. Apart from that, I can work with tools like Python, C, Hibernate, JPA, and familiarly work with tools like IntelliJ IDEA, Eclipse, Postman, Docker, Git, and GitHub. My technical areas of expertise include OOPS, Data Structures, Microservices, DBMS, REST APIs, J2EE, and MySQL, H2, MongoDB Databases.
+My interest lies in software development and I am always curious about learning new technologies and implementing them. With an efficient problem-solving ability quick learning capability working together makes me confident on being able to help your team in every way possible.
+My resume is attached for your reference, I am really excited about the opportunity to bring my skills as well as passion for software development to Gurucul.
