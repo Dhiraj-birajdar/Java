@@ -14,20 +14,20 @@ public class Main {
         person = deserialize("person.txt");
         System.out.println(person);
 
-        System.out.println(System.getProperty("java.version"));
-        try {
-            int i =System.in.read();
-            System.out.println(i);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+//        System.out.println(System.getProperty("java.version"));
+//        try {
+//            int i =System.in.read();
+//            System.out.println((char)i);
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
 
 
     }
 
     private static Person deserialize(String file) {
-        FileInputStream filein = null;
-        ObjectInputStream objin = null;
+        FileInputStream filein;
+        ObjectInputStream objin ;
 
         try {
             filein = new FileInputStream(file);
@@ -41,8 +41,8 @@ public class Main {
     }
 
     static boolean serialize(Person person,String path){
-        FileOutputStream fileout = null;
-        ObjectOutputStream objout = null;
+        FileOutputStream fileout ;
+        ObjectOutputStream objout ;
         try{
         fileout = new FileOutputStream(path);
         objout = new ObjectOutputStream(fileout);
