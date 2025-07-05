@@ -10,21 +10,22 @@ import java.util.UUID;
 
 public class CsvToDB {
     public static void main(String[] args) {
-//        Connection con = null;
+        // Connection con = null;
         try (
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
-                BufferedReader reader = new BufferedReader(new FileReader("data.csv"))
-        ) {
+                BufferedReader reader = new BufferedReader(new FileReader("data.csv"))) {
 
-//            String createTable = "create table emp(id int primary key, first_name varchar(50), last_name varchar(50), email varchar" +
-//                    "(50), gender char, job varchar(50))";
-//            Statement st = con.createStatement();
-//            st.execute(createTable);
-//            st.close();
+            // String createTable = "create table emp(id int primary key, first_name
+            // varchar(50), last_name varchar(50), email varchar" +
+            // "(50), gender char, job varchar(50))";
+            // Statement st = con.createStatement();
+            // st.execute(createTable);
+            // st.close();
 
             String insertData = "insert into emp(id,first_name,last_name,email,gender,job) values(?,?,?,?,?,?)";
             PreparedStatement pst = con.prepareStatement(insertData);
             String line = reader.readLine();
+
             String[] filds;
             System.out.println(line);
             int id = 51;
@@ -47,4 +48,4 @@ public class CsvToDB {
     }
 }
 
-//id,first_name,last_name,email,gender,job
+// id,first_name,last_name,email,gender,job

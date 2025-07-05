@@ -5,8 +5,8 @@ public class LongestPalindromicSubstring {
         String s = "akjdljsafjeaaaaaaaabkjjajjfsdfklflkkee";
         String sub = "";
 
-        for(int i = 0;i<s.length();i++){
-
-        }
+//        for(int i = 0;i<s.length();i++){
+//
+//        }
     }
 }
